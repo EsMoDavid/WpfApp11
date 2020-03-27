@@ -22,7 +22,7 @@ namespace WpfApp11
     {
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent();   
         }
     }
 }
