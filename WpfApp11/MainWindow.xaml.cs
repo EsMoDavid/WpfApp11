@@ -23,7 +23,7 @@ namespace WpfApp11
         public MainWindow()
         {
             InitializeComponent();
-            string a = 1;
+            string a = "1";
         }
     }
 }
