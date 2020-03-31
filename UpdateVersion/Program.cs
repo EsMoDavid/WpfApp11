@@ -13,6 +13,7 @@ namespace UpdateVersion
         const string KeyAssembly = "AssemblyVersion(\"";
         static void Main(string[] args)
         {
+            Console.WriteLine(args[0]);
             List<string> currentVer = args[0].Split('.').ToList();
             int nextVerIndex = int.Parse(currentVer.Last()) + 1;
             currentVer[currentVer.Count - 1] = nextVerIndex.ToString();

@@ -21,7 +21,7 @@ namespace WpfApp11
     /// </summary>
     public partial class MainWindow : Window 
     { 
-        public MainWindow()
+        public MainWindow() 
         {
             InitializeComponent();
             //string a = "1;0001490889
