@@ -15,7 +15,7 @@ namespace UpdateVersion
             string current = args[1];
             string previousVer = $"[assembly: AssemblyVersion(\"{previous}\")]";
             string currentVer = $"[assembly: AssemblyVersion(\"{current}\")]";
-            string path= @"..\..\..\WpfApp11\Properties\AssemblyInfo.cs";
+            string path= @"WpfApp11\Properties\AssemblyInfo.cs";
             if (File.Exists(path))
             {
                 string assebmlyVer = File.ReadAllText(path);
