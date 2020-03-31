@@ -104,5 +104,11 @@
       <Version>12.0.3</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UpdateVersion\UpdateVersion.csproj">
+      <Project>{57715f51-b234-492a-adb5-db88de9286a1}</Project>
+      <Name>UpdateVersion</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
