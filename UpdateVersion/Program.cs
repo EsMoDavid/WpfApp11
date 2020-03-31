@@ -13,6 +13,8 @@ namespace UpdateVersion
         {
             string previous = args[0];
             string current = args[1];
+            Console.WriteLine(previous);
+            Console.WriteLine(current);
             string previousVer = $"[assembly: AssemblyVersion(\"{previous}\")]";
             string currentVer = $"[assembly: AssemblyVersion(\"{current}\")]";
             string path= @"WpfApp11\Properties\AssemblyInfo.cs";
