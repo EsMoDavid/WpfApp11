@@ -25,7 +25,7 @@ namespace WpfApp11
         {
             InitializeComponent(); 
             //string a = "1;0001490889
-            tb.Text = JsonConvert.SerializeObject(new object());
+            tb.Text = JsonConvert.SerializeObject(new object()); 
         }   
     }
 }
