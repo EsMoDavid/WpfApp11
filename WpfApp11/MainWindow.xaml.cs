@@ -23,7 +23,7 @@ namespace WpfApp11
     { 
         public MainWindow()  
         {
-            InitializeComponent();
+            InitializeComponent(); 
             //string a = "1;0001490889
             tb.Text = JsonConvert.SerializeObject(new object());
         }   
