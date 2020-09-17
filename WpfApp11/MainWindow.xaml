@@ -8,5 +8,5 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <TextBlock x:Name="tb" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40" ></TextBlock>
-    </Grid>
+    </Grid>   
 </Window>
